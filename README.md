@@ -10,7 +10,6 @@ It can verify whether **two face images belong to the same person**.
 
 - Siamese Neural Network for image verification
 - CNN-based embedding model
-- Data preprocessing and augmentation
 - Easy-to-use Kivy GUI
 - Command-line verification option
 
@@ -20,8 +19,8 @@ It can verify whether **two face images belong to the same person**.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/anamipatel81/Face-.git
-   cd News-Research-Tool
+   git clone https://github.com/anamipatel81/Face-Recognition_model-Using-Siamese-Network.git
+   cd Face-Recognition_model-Using-Siamese-Network
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
