@@ -36,20 +36,19 @@ The Siamese Network learns to distinguish between images of the same person and 
       │   ├── anchor/         # Anchor face images
       │   ├── positive/       # Positive pairs (same person)
       │   └── negative/       # Negative pairs (different people)
-        │
+      |
       ├── model/
-      │   ├── siamese_model.h5  # Saved trained model
-      │   └── embedding_model.h5
+      |   ├── emmending       # CNN 
+      │   ├── L1Dist Layer    # Compute L1 Distance (absolute difference) 
+      │   └── siamese_model
       │
       ├── app/
-      │   ├── main.py         # Kivy app entry point
-      │   ├── screens.kv      # Kivy UI
-      │   └── assets/         # App images/icons
-      │
-      ├── train.py            # Siamese network training script
-      ├── verify.py           # Image verification script
-      ├── requirements.txt
-      └── README.md
+          ├── application_data
+              ├── input_image
+              └── verification_image
+          ├── siamesemodelv2.h5 # Saved trained model
+          ├── layers.py         # Contain custom L1Dist Layer
+          └── faceid.py         # Main scripy for face recognition app
 
 ---
 
