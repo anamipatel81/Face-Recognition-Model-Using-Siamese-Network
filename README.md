@@ -25,29 +25,6 @@ It can verify whether **two face images belong to the same person**.
    ```bash
    pip install -r requirements.txt
 
----
-
-## Project Structure:
-
-face-recognition/<br>
-│<br>
-├── data/<br>
-│ ├── anchor/ # Anchor images<br>
-│ ├── positive/ # Positive pairs (same person)<br>
-│ └── negative/ # Negative pairs (different people)<br>
-│<br>
-├── model/<br>
-| ├── embedding<br>
-| ├── L1.Dist<br>
-│ ├── siamese_model<br>
-│<br>
-├── app/<br>
-  ├── application_data<br>
-    ├── input_image<br>
-    ├── verification_image<br>
-  ├── siamesemodelv2.h5<br>
-  ├── layers.ky # Contain custom L1Dist Layer<br>
-  └── faceid.py # Main script for recognition app<br>
 
 ---
 
