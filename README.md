@@ -29,7 +29,7 @@ It can verify whether **two face images belong to the same person**.
 
 ## Project Structure:
 
-face-recognition/
+face-recognition/<br>
 │
 ├── data/
 │ ├── anchor/ # Anchor images
