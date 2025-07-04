@@ -2,7 +2,7 @@
 
 A **face recognition system** built with a **Siamese Neural Network** (TensorFlow/Keras), packaged in a **Kivy** app for user-friendly deployment.  
 
-It can verify whether **two face images belong to the same person**.
+The Siamese Network learns to distinguish between images of the same person and different people by comparing embeddings of face images.
 
 ---
 
