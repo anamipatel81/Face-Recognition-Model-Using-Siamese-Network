@@ -25,6 +25,31 @@ The Siamese Network learns to distinguish between images of the same person and 
    ```bash
    pip install -r requirements.txt
 
+---
+
+## 📂 Project Structure:
+
+    ```bash
+    project/
+      │
+      ├── data/
+      │   ├── anchor/         # Anchor face images
+      │   ├── positive/       # Positive pairs (same person)
+      │   └── negative/       # Negative pairs (different people)
+        │
+      ├── model/
+      │   ├── siamese_model.h5  # Saved trained model
+      │   └── embedding_model.h5
+      │
+      ├── app/
+      │   ├── main.py         # Kivy app entry point
+      │   ├── screens.kv      # Kivy UI
+      │   └── assets/         # App images/icons
+      │
+      ├── train.py            # Siamese network training script
+      ├── verify.py           # Image verification script
+      ├── requirements.txt
+      └── README.md
 
 ---
 
